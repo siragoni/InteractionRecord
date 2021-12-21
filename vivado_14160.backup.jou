@@ -1,0 +1,16 @@
+#-----------------------------------------------------------
+# Vivado v2018.3 (64-bit)
+# SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
+# IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
+# Start of session at: Wed Nov  3 08:48:42 2021
+# Process ID: 14160
+# Current directory: C:/Users/Simone Ragoni/alice/InteractionRecord/IR
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent13392 C:\Users\Simone Ragoni\alice\InteractionRecord\IR\IR.xpr
+# Log file: C:/Users/Simone Ragoni/alice/InteractionRecord/IR/vivado.log
+# Journal file: C:/Users/Simone Ragoni/alice/InteractionRecord/IR\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.xpr}
+update_compile_order -fileset sources_1
+launch_simulation -install_path C:/questasim64_10.6c/win64
+launch_simulation -install_path C:/questasim64_10.6c/win64

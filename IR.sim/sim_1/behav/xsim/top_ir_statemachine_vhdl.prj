@@ -1,0 +1,10 @@
+# compile vhdl design source files
+vhdl xil_defaultlib  \
+"../../../../../../CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd" \
+"../../../../IR.srcs/sources_1/new/ir_statemachine.vhd" \
+"../../../../IR.srcs/sources_1/new/packer_ir2.vhd" \
+"../../../../../../WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd" \
+"../../../../IR.srcs/sources_1/new/top_ir_statemachine.vhd" \
+
+# Do not sort compile order
+nosort
