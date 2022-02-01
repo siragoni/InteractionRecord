@@ -7,17 +7,17 @@
 # Modifying modelsim.ini
 # ** Warning: (vlog-159) Mode option -64 is not supported in this context and will be ignored.
 # QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 14:15:00 on Dec 13,2021
+# Start time: 08:19:41 on Feb 01,2022
 # vlog -64 -incr -work xil_defaultlib ../../../../IR.ip_user_files/ip/ir_fifo/sim/ir_fifo.v 
 # -- Skipping module ir_fifo
 # 
 # Top level modules:
 # 	ir_fifo
-# End time: 14:15:00 on Dec 13,2021, Elapsed time: 0:00:00
+# End time: 08:19:41 on Feb 01,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 1
 # ** Warning: (vcom-159) Mode option -64 is not supported in this context and will be ignored.
 # QuestaSim-64 vcom 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 14:15:00 on Dec 13,2021
+# Start time: 08:19:41 on Feb 01,2022
 # vcom -64 -93 -work xil_defaultlib ../../../../../../CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd ../../../../IR.srcs/sources_1/new/ir_statemachine.vhd ../../../../IR.srcs/sources_1/new/packer_ir2.vhd ../../../../../../WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd ../../../../IR.srcs/sources_1/new/top_ir_statemachine.vhd ../../../../IR.srcs/sim_1/new/IR_tb.vhd 
 # -- Loading package STANDARD
 # -- Loading package TEXTIO
@@ -41,14 +41,14 @@
 # -- Loading package std_logic_textio
 # -- Compiling entity IR_tb
 # -- Compiling architecture Behavioral of IR_tb
-# End time: 14:15:00 on Dec 13,2021, Elapsed time: 0:00:00
+# End time: 08:19:41 on Feb 01,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 2
 # QuestaSim-64 vlog 10.6c Compiler 2017.07 Jul 26 2017
-# Start time: 14:15:00 on Dec 13,2021
+# Start time: 08:19:41 on Feb 01,2022
 # vlog -work xil_defaultlib glbl.v 
 # -- Compiling module glbl
 # 
 # Top level modules:
 # 	glbl
-# End time: 14:15:00 on Dec 13,2021, Elapsed time: 0:00:00
+# End time: 08:19:41 on Feb 01,2022, Elapsed time: 0:00:00
 # Errors: 0, Warnings: 0

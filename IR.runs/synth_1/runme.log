@@ -15,13 +15,13 @@ Attempting to get a license for feature 'Synthesis' and/or device 'xcku060'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xcku060'
 INFO: [Common 17-1540] The version limit for your license is '2020.04' and has expired for new software. A version limit expiration means that, although you may be able to continue to use the current version of tools or IP with this license, you will not be eligible for any updates or new releases.
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 10516 
+INFO: Helper process launched with PID 7884 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:02 ; elapsed = 00:00:02 . Memory (MB): peak = 469.098 ; gain = 96.844
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:02 . Memory (MB): peak = 469.168 ; gain = 96.813
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'top_ir_statemachine' [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/top_ir_statemachine.vhd:89]
+INFO: [Synth 8-638] synthesizing module 'top_ir_statemachine' [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/top_ir_statemachine.vhd:89]
 	Parameter g_NUM_BITS_ON_GBT_WORD bound to: 60 - type: integer 
-INFO: [Synth 8-3491] module 'prsg_tcr' declared at 'C:/Users/Simone Ragoni/alice/WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd:7' bound to instance 'rnd_data' of component 'prsg_tcr' [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/top_ir_statemachine.vhd:251]
+INFO: [Synth 8-3491] module 'prsg_tcr' declared at 'C:/Users/Simone Ragoni/alice/WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd:7' bound to instance 'rnd_data' of component 'prsg_tcr' [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/top_ir_statemachine.vhd:251]
 INFO: [Synth 8-638] synthesizing module 'prsg_tcr' [C:/Users/Simone Ragoni/alice/WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd:17]
 WARNING: [Synth 8-6014] Unused sequential element temp_reg was removed.  [C:/Users/Simone Ragoni/alice/WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd:39]
 WARNING: [Synth 8-6014] Unused sequential element threshold_value_reg was removed.  [C:/Users/Simone Ragoni/alice/WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd:43]
@@ -29,42 +29,43 @@ WARNING: [Synth 8-6014] Unused sequential element output_value_reg was removed. 
 WARNING: [Synth 8-6014] Unused sequential element counter_reg was removed.  [C:/Users/Simone Ragoni/alice/WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd:36]
 INFO: [Synth 8-256] done synthesizing module 'prsg_tcr' (1#1) [C:/Users/Simone Ragoni/alice/WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd:17]
 	Parameter bits_to_get bound to: 60 - type: integer 
-INFO: [Synth 8-3491] module 'packer_ir2' declared at 'C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/packer_ir2.vhd:37' bound to instance 'input_data_packer' of component 'packer_ir2' [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/top_ir_statemachine.vhd:299]
-INFO: [Synth 8-638] synthesizing module 'packer_ir2' [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/packer_ir2.vhd:56]
+INFO: [Synth 8-3491] module 'packer_ir2' declared at 'C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/packer_ir2.vhd:37' bound to instance 'input_data_packer' of component 'packer_ir2' [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/top_ir_statemachine.vhd:299]
+INFO: [Synth 8-638] synthesizing module 'packer_ir2' [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/packer_ir2.vhd:54]
 	Parameter bits_to_get bound to: 60 - type: integer 
-WARNING: [Synth 8-6014] Unused sequential element store_count_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/packer_ir2.vhd:90]
-WARNING: [Synth 8-6014] Unused sequential element write_flag_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/packer_ir2.vhd:91]
-WARNING: [Synth 8-6014] Unused sequential element new_store_count_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/packer_ir2.vhd:97]
-INFO: [Synth 8-256] done synthesizing module 'packer_ir2' (2#1) [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/packer_ir2.vhd:56]
-INFO: [Synth 8-3491] module 'ir_fifo' declared at 'C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.runs/synth_1/.Xil/Vivado-256-DESKTOP-T9I20SI/realtime/ir_fifo_stub.v:6' bound to instance 'ir_fifo_inst' of component 'ir_fifo' [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/top_ir_statemachine.vhd:326]
-INFO: [Synth 8-6157] synthesizing module 'ir_fifo' [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.runs/synth_1/.Xil/Vivado-256-DESKTOP-T9I20SI/realtime/ir_fifo_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'ir_fifo' (3#1) [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.runs/synth_1/.Xil/Vivado-256-DESKTOP-T9I20SI/realtime/ir_fifo_stub.v:6]
-INFO: [Synth 8-3491] module 'buffer_fifo' declared at 'C:/Users/Simone Ragoni/alice/CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd:37' bound to instance 'buffer_from_fifo' of component 'buffer_fifo' [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/top_ir_statemachine.vhd:346]
+WARNING: [Synth 8-6014] Unused sequential element store_count_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/packer_ir2.vhd:78]
+WARNING: [Synth 8-6014] Unused sequential element write_flag_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/packer_ir2.vhd:79]
+WARNING: [Synth 8-6014] Unused sequential element new_store_count_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/packer_ir2.vhd:85]
+INFO: [Synth 8-256] done synthesizing module 'packer_ir2' (2#1) [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/packer_ir2.vhd:54]
+INFO: [Synth 8-3491] module 'ir_fifo' declared at 'C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.runs/synth_1/.Xil/Vivado-13416-DESKTOP-T9I20SI/realtime/ir_fifo_stub.v:6' bound to instance 'ir_fifo_inst' of component 'ir_fifo' [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/top_ir_statemachine.vhd:323]
+INFO: [Synth 8-6157] synthesizing module 'ir_fifo' [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.runs/synth_1/.Xil/Vivado-13416-DESKTOP-T9I20SI/realtime/ir_fifo_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'ir_fifo' (3#1) [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.runs/synth_1/.Xil/Vivado-13416-DESKTOP-T9I20SI/realtime/ir_fifo_stub.v:6]
+INFO: [Synth 8-3491] module 'buffer_fifo' declared at 'C:/Users/Simone Ragoni/alice/CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd:37' bound to instance 'fifo_data_sync_with_valid_data' of component 'buffer_fifo' [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/top_ir_statemachine.vhd:343]
 INFO: [Synth 8-638] synthesizing module 'buffer_fifo' [C:/Users/Simone Ragoni/alice/CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd:49]
-WARNING: [Synth 8-6014] Unused sequential element store_count_reg was removed.  [C:/Users/Simone Ragoni/alice/CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd:109]
+WARNING: [Synth 8-6014] Unused sequential element store_count_reg was removed.  [C:/Users/Simone Ragoni/alice/CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd:70]
 INFO: [Synth 8-256] done synthesizing module 'buffer_fifo' (4#1) [C:/Users/Simone Ragoni/alice/CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd:49]
-INFO: [Synth 8-3491] module 'ir_statemachine' declared at 'C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:18' bound to instance 'ir_state_machine' of component 'ir_statemachine' [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/top_ir_statemachine.vhd:387]
-INFO: [Synth 8-638] synthesizing module 'ir_statemachine' [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:70]
-WARNING: [Synth 8-614] signal 'helper_stopbit' is read in the process but is not in the sensitivity list [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:478]
-WARNING: [Synth 8-614] signal 'helper_data_eop' is read in the process but is not in the sensitivity list [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:478]
-WARNING: [Synth 8-614] signal 's_previoustate' is read in the process but is not in the sensitivity list [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:478]
-WARNING: [Synth 8-6014] Unused sequential element trgmaskedpre_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:368]
-WARNING: [Synth 8-6014] Unused sequential element trgmaskedorpre_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:374]
-WARNING: [Synth 8-6014] Unused sequential element TTVALID_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:387]
-WARNING: [Synth 8-6014] Unused sequential element s_trgd_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:407]
-WARNING: [Synth 8-6014] Unused sequential element u_page_cnt_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:841]
-WARNING: [Synth 8-6014] Unused sequential element s_last_ttype_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:957]
-WARNING: [Synth 8-6014] Unused sequential element s_last_orbit_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:958]
-WARNING: [Synth 8-6014] Unused sequential element s_last_bc_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:959]
-WARNING: [Synth 8-6014] Unused sequential element s_hborbit_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:971]
-WARNING: [Synth 8-6014] Unused sequential element s_hbbc_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:972]
-WARNING: [Synth 8-6014] Unused sequential element s_last_trgorbit_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:986]
-WARNING: [Synth 8-6014] Unused sequential element s_last_trgbc_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:987]
-WARNING: [Synth 8-6014] Unused sequential element help_vector_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:1050]
-WARNING: [Synth 8-3848] Net i_ev_size in module/entity ir_statemachine does not have driver. [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:101]
-INFO: [Synth 8-256] done synthesizing module 'ir_statemachine' (5#1) [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:70]
-WARNING: [Synth 8-6014] Unused sequential element count_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/top_ir_statemachine.vhd:264]
-INFO: [Synth 8-256] done synthesizing module 'top_ir_statemachine' (6#1) [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/top_ir_statemachine.vhd:89]
+INFO: [Synth 8-3491] module 'ir_statemachine' declared at 'C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:18' bound to instance 'ir_state_machine' of component 'ir_statemachine' [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/top_ir_statemachine.vhd:384]
+INFO: [Synth 8-638] synthesizing module 'ir_statemachine' [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:70]
+WARNING: [Synth 8-614] signal 'helper_stopbit' is read in the process but is not in the sensitivity list [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:423]
+WARNING: [Synth 8-614] signal 'helper_data_eop' is read in the process but is not in the sensitivity list [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:423]
+WARNING: [Synth 8-614] signal 's_previoustate' is read in the process but is not in the sensitivity list [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:423]
+WARNING: [Synth 8-614] signal 'clk_en_i' is read in the process but is not in the sensitivity list [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:841]
+WARNING: [Synth 8-6014] Unused sequential element trgmaskedpre_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:324]
+WARNING: [Synth 8-6014] Unused sequential element trgmaskedorpre_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:330]
+WARNING: [Synth 8-6014] Unused sequential element TTVALID_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:343]
+WARNING: [Synth 8-6014] Unused sequential element s_trgd_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:358]
+WARNING: [Synth 8-6014] Unused sequential element u_page_cnt_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:749]
+WARNING: [Synth 8-6014] Unused sequential element s_last_ttype_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:805]
+WARNING: [Synth 8-6014] Unused sequential element s_last_orbit_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:806]
+WARNING: [Synth 8-6014] Unused sequential element s_last_bc_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:807]
+WARNING: [Synth 8-6014] Unused sequential element s_hborbit_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:813]
+WARNING: [Synth 8-6014] Unused sequential element s_hbbc_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:814]
+WARNING: [Synth 8-6014] Unused sequential element s_last_trgorbit_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:827]
+WARNING: [Synth 8-6014] Unused sequential element s_last_trgbc_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:828]
+WARNING: [Synth 8-6014] Unused sequential element help_vector_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:884]
+WARNING: [Synth 8-3848] Net i_ev_size in module/entity ir_statemachine does not have driver. [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:101]
+INFO: [Synth 8-256] done synthesizing module 'ir_statemachine' (5#1) [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:70]
+WARNING: [Synth 8-6014] Unused sequential element count_reg was removed.  [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/top_ir_statemachine.vhd:264]
+INFO: [Synth 8-256] done synthesizing module 'top_ir_statemachine' (6#1) [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/top_ir_statemachine.vhd:89]
 WARNING: [Synth 8-3331] design ir_statemachine has unconnected port trg_i[118]
 WARNING: [Synth 8-3331] design ir_statemachine has unconnected port trg_i[117]
 WARNING: [Synth 8-3331] design ir_statemachine has unconnected port trg_i[116]
@@ -167,7 +168,7 @@ WARNING: [Synth 8-3331] design ir_statemachine has unconnected port trg_i[20]
 WARNING: [Synth 8-3331] design ir_statemachine has unconnected port trg_i[19]
 INFO: [Common 17-14] Message 'Synth 8-3331' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 525.664 ; gain = 153.410
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 525.207 ; gain = 152.852
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -180,28 +181,28 @@ Report Check Netlist:
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 525.664 ; gain = 153.410
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 525.207 ; gain = 152.852
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 525.664 ; gain = 153.410
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:03 . Memory (MB): peak = 525.207 ; gain = 152.852
 ---------------------------------------------------------------------------------
 INFO: [Device 21-403] Loading part xcku060-ffva1156-2-e
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.runs/synth_1/.Xil/Vivado-256-DESKTOP-T9I20SI/ir_fifo/ir_fifo/ir_fifo_in_context.xdc] for cell 'ir_fifo_inst'
-Finished Parsing XDC File [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.runs/synth_1/.Xil/Vivado-256-DESKTOP-T9I20SI/ir_fifo/ir_fifo/ir_fifo_in_context.xdc] for cell 'ir_fifo_inst'
+Parsing XDC File [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.runs/synth_1/.Xil/Vivado-13416-DESKTOP-T9I20SI/ir_fifo/ir_fifo/ir_fifo_in_context.xdc] for cell 'ir_fifo_inst'
+Finished Parsing XDC File [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.runs/synth_1/.Xil/Vivado-13416-DESKTOP-T9I20SI/ir_fifo/ir_fifo/ir_fifo_in_context.xdc] for cell 'ir_fifo_inst'
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1150.398 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1150.641 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1150.398 ; gain = 0.000
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.010 . Memory (MB): peak = 1150.398 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1150.641 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.009 . Memory (MB): peak = 1150.641 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1150.398 ; gain = 778.145
+Finished Constraint Validation : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1150.641 ; gain = 778.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
@@ -209,14 +210,14 @@ Start Loading Part and Timing Information
 Loading part: xcku060-ffva1156-2-e
 INFO: [Synth 8-6742] Reading net delay rules and data
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1150.398 ; gain = 778.145
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1150.641 ; gain = 778.285
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 Applied set_property DONT_TOUCH = true for ir_fifo_inst. (constraint file  auto generated constraint, line ).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1150.398 ; gain = 778.145
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:11 ; elapsed = 00:00:11 . Memory (MB): peak = 1150.641 ; gain = 778.285
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-3936] Found unconnected internal register 'rand_temp2_reg' and it is trimmed from '48' to '21' bits. [C:/Users/Simone Ragoni/alice/WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd:44]
 INFO: [Synth 8-5545] ROM "store_count" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
@@ -225,7 +226,7 @@ INFO: [Synth 8-5545] ROM "valid_flag" won't be mapped to RAM because address siz
 INFO: [Synth 8-5545] ROM "store_count" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "temp_data_s" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
 INFO: [Synth 8-5545] ROM "valid_flag" won't be mapped to RAM because address size (31) is larger than maximum supported(25)
-INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:819]
+INFO: [Synth 8-5818] HDL ADVISOR - The operator resource <adder> is shared. To prevent sharing consider applying a KEEP on the output of the operator [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:730]
 INFO: [Synth 8-802] inferred FSM for state register 's_cs_reg' in module 'ir_statemachine'
 INFO: [Synth 8-5546] ROM "s_no_idle_btw_events" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-5544] ROM "i_max_idle_btw_events" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
@@ -248,7 +249,7 @@ INFO: [Synth 8-5544] ROM "s_ns" won't be mapped to Block RAM because address siz
 INFO: [Synth 8-5544] ROM "s_ns" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "s_ns" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "eox_pkt_sent" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
-INFO: [Synth 8-5544] ROM "tcr_state_machine_codes_o" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "ir_state_machine_codes_o" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "s_ns" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "s_ns" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
 INFO: [Synth 8-5544] ROM "s_ns" won't be mapped to Block RAM because address size (1) smaller than threshold (5)
@@ -280,10 +281,10 @@ INFO: [Synth 8-5544] ROM "s_ns" won't be mapped to Block RAM because address siz
                send_idle |                             0101 |                             1010
 ---------------------------------------------------------------------------------------------------
 INFO: [Synth 8-3354] encoded FSM with state register 's_cs_reg' using encoding 'sequential' in module 'ir_statemachine'
-WARNING: [Synth 8-327] inferring latch for variable 'helper_stopbit_reg' [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:512]
-WARNING: [Synth 8-327] inferring latch for variable 'reset_buffer_reg' [C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd:487]
+WARNING: [Synth 8-327] inferring latch for variable 'helper_stopbit_reg' [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:456]
+WARNING: [Synth 8-327] inferring latch for variable 'reset_buffer_reg' [C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd:432]
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 1150.398 ; gain = 778.145
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:12 . Memory (MB): peak = 1150.641 ; gain = 778.285
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -305,7 +306,7 @@ Detailed RTL Component Info :
 	   2 Input      1 Bit         XORs := 1     
 +---Registers : 
 	              300 Bit    Registers := 1     
-	               83 Bit    Registers := 3     
+	               83 Bit    Registers := 4     
 	               80 Bit    Registers := 2     
 	               48 Bit    Registers := 2     
 	               32 Bit    Registers := 7     
@@ -318,17 +319,18 @@ Detailed RTL Component Info :
 	                5 Bit    Registers := 4     
 	                4 Bit    Registers := 1     
 	                3 Bit    Registers := 1     
-	                1 Bit    Registers := 25    
+	                1 Bit    Registers := 26    
 +---Muxes : 
 	   8 Input    300 Bit        Muxes := 1     
 	   5 Input    300 Bit        Muxes := 1     
 	   2 Input    300 Bit        Muxes := 1     
 	   4 Input     83 Bit        Muxes := 1     
 	   2 Input     83 Bit        Muxes := 6     
-	   2 Input     80 Bit        Muxes := 2     
+	   2 Input     80 Bit        Muxes := 3     
 	   8 Input     80 Bit        Muxes := 2     
-	   2 Input     68 Bit        Muxes := 1     
+	   2 Input     68 Bit        Muxes := 2     
 	   8 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 1     
 	   6 Input      9 Bit        Muxes := 1     
 	   2 Input      9 Bit        Muxes := 1     
 	   2 Input      6 Bit        Muxes := 1     
@@ -362,7 +364,7 @@ Detailed RTL Component Info :
 	               12 Bit    Registers := 1     
 	                1 Bit    Registers := 2     
 +---Muxes : 
-	   2 Input     68 Bit        Muxes := 1     
+	   2 Input     68 Bit        Muxes := 2     
 Module prsg_tcr 
 Detailed RTL Component Info : 
 +---XORs : 
@@ -376,8 +378,8 @@ Module packer_ir2
 Detailed RTL Component Info : 
 +---Registers : 
 	              300 Bit    Registers := 1     
-	               83 Bit    Registers := 1     
-	                1 Bit    Registers := 3     
+	               83 Bit    Registers := 2     
+	                1 Bit    Registers := 4     
 +---Muxes : 
 	   8 Input    300 Bit        Muxes := 1     
 	   5 Input    300 Bit        Muxes := 1     
@@ -423,9 +425,10 @@ Detailed RTL Component Info :
 	                3 Bit    Registers := 1     
 	                1 Bit    Registers := 19    
 +---Muxes : 
-	   2 Input     80 Bit        Muxes := 2     
+	   2 Input     80 Bit        Muxes := 3     
 	   8 Input     80 Bit        Muxes := 2     
 	   8 Input     32 Bit        Muxes := 2     
+	   2 Input     32 Bit        Muxes := 1     
 	   2 Input      4 Bit        Muxes := 22    
 	   5 Input      4 Bit        Muxes := 3     
 	  10 Input      4 Bit        Muxes := 3     
@@ -453,7 +456,7 @@ Finished Part Resource Summary
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 Warning: Parallel synthesis criteria is not met 
-INFO: [Synth 8-5544] ROM "d_o0" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
+INFO: [Synth 8-5544] ROM "d_o00" won't be mapped to Block RAM because address size (4) smaller than threshold (5)
 INFO: [Synth 8-5546] ROM "s_no_idle_btw_events" won't be mapped to RAM because it is too sparse
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\rnd_data/rand_temp_reg[21] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\rnd_data/rand_temp_reg[22] )
@@ -548,7 +551,7 @@ INFO: [Synth 8-3886] merging instance 'ir_state_machine/i_max_idle_btw_events_re
 INFO: [Synth 8-3886] merging instance 'ir_state_machine/i_max_idle_btw_events_reg[4]' (FDRE) to 'ir_state_machine/i_max_idle_btw_events_reg[5]'
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ir_state_machine/i_max_idle_btw_events_reg[5] )
 INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ir_state_machine/s_last_word_reg )
-INFO: [Synth 8-3333] propagating constant 0 across sequential element (\buffer_from_fifo/helper_check_reg )
+INFO: [Synth 8-3333] propagating constant 0 across sequential element (\fifo_data_sync_with_valid_data/helper_check_reg )
 INFO: [Synth 8-3886] merging instance 'ir_state_machine/s_ttype_reg[0]' (FDRE) to 'ir_state_machine/s_ttype_reg[8]'
 INFO: [Synth 8-3886] merging instance 'ir_state_machine/s_ttype_reg[1]' (FDSE) to 'ir_state_machine/s_ttype_reg[2]'
 INFO: [Synth 8-3886] merging instance 'ir_state_machine/s_ttype_reg[2]' (FDSE) to 'ir_state_machine/s_ttype_reg[3]'
@@ -582,7 +585,7 @@ INFO: [Synth 8-3333] propagating constant 0 across sequential element (\ir_state
 INFO: [Synth 8-3886] merging instance 'ir_state_machine/s_ttype_reg[30]' (FDSE) to 'ir_state_machine/s_ttype_reg[31]'
 INFO: [Synth 8-3333] propagating constant 1 across sequential element (\ir_state_machine/s_ttype_reg[31] )
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1150.398 ; gain = 778.145
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 1150.641 ; gain = 778.285
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -594,13 +597,13 @@ Report RTL Partitions:
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1318.941 ; gain = 946.688
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1320.148 ; gain = 947.793
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1320.203 ; gain = 947.949
+Finished Timing Optimization : Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 1321.414 ; gain = 949.059
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -612,7 +615,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1351.777 ; gain = 979.523
+Finished Technology Mapping : Time (s): cpu = 00:00:23 ; elapsed = 00:00:25 . Memory (MB): peak = 1353.805 ; gain = 981.449
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -636,7 +639,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1351.777 ; gain = 979.523
+Finished IO Insertion : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1353.805 ; gain = 981.449
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -649,7 +652,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1351.777 ; gain = 979.523
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:24 ; elapsed = 00:00:25 . Memory (MB): peak = 1353.805 ; gain = 981.449
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -661,25 +664,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1351.777 ; gain = 979.523
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1353.805 ; gain = 981.449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1351.777 ; gain = 979.523
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1353.805 ; gain = 981.449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1351.777 ; gain = 979.523
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1353.805 ; gain = 981.449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1351.777 ; gain = 979.523
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1353.805 ; gain = 981.449
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start ROM, RAM, DSP and Shift Register Reporting
@@ -716,56 +719,57 @@ Report Cell Usage:
 |2     |BUFG    |     1|
 |3     |CARRY8  |    20|
 |4     |LUT1    |     4|
-|5     |LUT2    |   140|
-|6     |LUT3    |   106|
-|7     |LUT4    |   105|
+|5     |LUT2    |   135|
+|6     |LUT3    |    69|
+|7     |LUT4    |   102|
 |8     |LUT5    |   111|
-|9     |LUT6    |   253|
-|10    |SRL16E  |     3|
-|11    |FDCE    |   175|
-|12    |FDRE    |   591|
-|13    |FDSE    |     2|
-|14    |LD      |     2|
-|15    |IBUF    |   221|
-|16    |OBUF    |    87|
-|17    |OBUFT   |    28|
+|9     |LUT6    |   266|
+|10    |MUXF7   |     1|
+|11    |SRL16E  |     3|
+|12    |FDCE    |   175|
+|13    |FDRE    |   675|
+|14    |FDSE    |     2|
+|15    |LD      |     2|
+|16    |IBUF    |   222|
+|17    |OBUF    |    87|
+|18    |OBUFT   |    28|
 +------+--------+------+
 
 Report Instance Areas: 
-+------+--------------------+----------------+------+
-|      |Instance            |Module          |Cells |
-+------+--------------------+----------------+------+
-|1     |top                 |                |  1938|
-|2     |  buffer_from_fifo  |buffer_fifo     |   226|
-|3     |  input_data_packer |packer_ir2      |   347|
-|4     |  ir_state_machine  |ir_statemachine |   657|
-|5     |  rnd_data          |prsg_tcr        |   123|
-+------+--------------------+----------------+------+
++------+---------------------------------+----------------+------+
+|      |Instance                         |Module          |Cells |
++------+---------------------------------+----------------+------+
+|1     |top                              |                |  1992|
+|2     |  fifo_data_sync_with_valid_data |buffer_fifo     |   221|
+|3     |  input_data_packer              |packer_ir2      |   417|
+|4     |  ir_state_machine               |ir_statemachine |   647|
+|5     |  rnd_data                       |prsg_tcr        |   121|
++------+---------------------------------+----------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1351.777 ; gain = 979.523
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1353.805 ; gain = 981.449
 ---------------------------------------------------------------------------------
-Synthesis finished with 0 errors, 0 critical warnings and 154 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:20 . Memory (MB): peak = 1351.777 ; gain = 354.789
-Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1351.777 ; gain = 979.523
+Synthesis finished with 0 errors, 0 critical warnings and 184 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:15 ; elapsed = 00:00:20 . Memory (MB): peak = 1353.805 ; gain = 356.016
+Synthesis Optimization Complete : Time (s): cpu = 00:00:24 ; elapsed = 00:00:26 . Memory (MB): peak = 1353.805 ; gain = 981.449
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 244 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 246 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1372.250 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1370.828 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
-  A total of 224 instances were transformed.
+  A total of 225 instances were transformed.
   BUFG => BUFGCE: 1 instances
-  IBUF => IBUF (IBUFCTRL, INBUF): 221 instances
+  IBUF => IBUF (IBUFCTRL, INBUF): 222 instances
   LD => LDCE: 2 instances
 
 INFO: [Common 17-83] Releasing license: Synthesis
-205 Infos, 129 Warnings, 0 Critical Warnings and 0 Errors encountered.
+205 Infos, 130 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:30 . Memory (MB): peak = 1372.250 ; gain = 999.996
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1372.250 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:27 ; elapsed = 00:00:30 . Memory (MB): peak = 1370.828 ; gain = 998.473
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1370.828 ; gain = 0.000
 WARNING: [Constraints 18-5210] No constraints selected for write.
 Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
-INFO: [Common 17-1381] The checkpoint 'C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.runs/synth_1/top_ir_statemachine.dcp' has been generated.
+INFO: [Common 17-1381] The checkpoint 'C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.runs/synth_1/top_ir_statemachine.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_ir_statemachine_utilization_synth.rpt -pb top_ir_statemachine_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Mon Dec 13 14:09:47 2021...
+INFO: [Common 17-206] Exiting Vivado at Tue Feb  1 08:13:18 2022...

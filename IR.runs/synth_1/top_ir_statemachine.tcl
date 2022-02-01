@@ -18,29 +18,30 @@ proc create_report { reportName command } {
   }
 }
 set_param simulator.questaInstallPath C:/questasim64_10.6c/win64
+set_msg_config -id {Common 17-41} -limit 10000000
 create_project -in_memory -part xcku060-ffva1156-2-e
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir {C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.cache/wt} [current_project]
-set_property parent.project_path {C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.xpr} [current_project]
+set_property webtalk.parent_dir {C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.cache/wt} [current_project]
+set_property parent.project_path {C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.xpr} [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo {c:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.cache/ip} [current_project]
+set_property ip_output_repo {c:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.cache/ip} [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 read_vhdl -library xil_defaultlib {
   {C:/Users/Simone Ragoni/alice/CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd}
-  {C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/ir_statemachine.vhd}
-  {C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/packer_ir2.vhd}
+  {C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/ir_statemachine.vhd}
+  {C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/packer_ir2.vhd}
   {C:/Users/Simone Ragoni/alice/WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd}
-  {C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/new/top_ir_statemachine.vhd}
+  {C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/new/top_ir_statemachine.vhd}
 }
-read_ip -quiet {{C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/ip/ir_fifo/ir_fifo.xci}}
-set_property used_in_implementation false [get_files -all {{c:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/ip/ir_fifo/ir_fifo.xdc}}]
-set_property used_in_implementation false [get_files -all {{c:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.srcs/sources_1/ip/ir_fifo/ir_fifo_ooc.xdc}}]
+read_ip -quiet {{C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/ip/ir_fifo/ir_fifo.xci}}
+set_property used_in_implementation false [get_files -all {{c:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/ip/ir_fifo/ir_fifo.xdc}}]
+set_property used_in_implementation false [get_files -all {{c:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.srcs/sources_1/ip/ir_fifo/ir_fifo_ooc.xdc}}]
 
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

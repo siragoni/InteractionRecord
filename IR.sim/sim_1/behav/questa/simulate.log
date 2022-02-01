@@ -14,7 +14,7 @@
 # //
 # do {IR_tb_simulate.do}
 # vsim -lib xil_defaultlib IR_tb_opt 
-# Start time: 14:15:09 on Dec 13,2021
+# Start time: 08:19:53 on Feb 01,2022
 # Loading std.standard
 # Loading std.textio(body)
 # Loading ieee.std_logic_1164(body)
@@ -55,10 +55,10 @@
 # This port will contribute value (U) to the signal network.
 # ** Warning: (vsim-8683) Uninitialized out port /ir_tb/comp_top/ir_fifo_inst/inst/<protected>/<protected>/<protected>/<protected>/<protected>(0) has no driver.
 # This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8684) No drivers exist on out port /ir_tb/comp_top/ir_state_machine/tcr_state_machine_codes_o(31 downto 4), and its initial value is not used.
+# ** Warning: (vsim-8684) No drivers exist on out port /ir_tb/comp_top/ir_state_machine/ir_state_machine_codes_o(31 downto 4), and its initial value is not used.
 # Therefore, simulation behavior may occur that is not in compliance with
 # the VHDL standard as the initial values come from the base signal /ir_tb/s_state_num(31 downto 4).
-# ** Warning: (vsim-8684) No drivers exist on out port /ir_tb/comp_top/tcr_state_machine_codes_o(31 downto 4), and its initial value is not used.
+# ** Warning: (vsim-8684) No drivers exist on out port /ir_tb/comp_top/ir_state_machine_codes_o(31 downto 4), and its initial value is not used.
 # Therefore, simulation behavior may occur that is not in compliance with
 # the VHDL standard as the initial values come from the base signal /ir_tb/s_state_num(31 downto 4).
 # 1
@@ -72,7 +72,6 @@
 #    Time: 0 fs  Iteration: 0  Protected: /ir_tb/comp_top/ir_fifo_inst/inst/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>
 # ** Note:  DEPTH = 512 WIDTH = 72 C_RD_PRIM_WIDTH = 72 C_RD_PRIM_DEPTH = 512 DEEP = 1 WIDE = 2
 #    Time: 0 fs  Iteration: 0  Protected: /ir_tb/comp_top/ir_fifo_inst/inst/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>
-add wave -position end sim:/ir_tb/comp_top/input_data_packer/*
 restart
 # Loading work.glbl(fast)
 # Loading work.ir_fifo(fast)
@@ -94,10 +93,10 @@ restart
 # This port will contribute value (U) to the signal network.
 # ** Warning: (vsim-8683) Uninitialized out port /ir_tb/comp_top/ir_fifo_inst/inst/<protected>/<protected>/<protected>/<protected>/<protected>(0) has no driver.
 # This port will contribute value (U) to the signal network.
-# ** Warning: (vsim-8684) No drivers exist on out port /ir_tb/comp_top/ir_state_machine/tcr_state_machine_codes_o(31 downto 4), and its initial value is not used.
+# ** Warning: (vsim-8684) No drivers exist on out port /ir_tb/comp_top/ir_state_machine/ir_state_machine_codes_o(31 downto 4), and its initial value is not used.
 # Therefore, simulation behavior may occur that is not in compliance with
 # the VHDL standard as the initial values come from the base signal /ir_tb/s_state_num(31 downto 4).
-# ** Warning: (vsim-8684) No drivers exist on out port /ir_tb/comp_top/tcr_state_machine_codes_o(31 downto 4), and its initial value is not used.
+# ** Warning: (vsim-8684) No drivers exist on out port /ir_tb/comp_top/ir_state_machine_codes_o(31 downto 4), and its initial value is not used.
 # Therefore, simulation behavior may occur that is not in compliance with
 # the VHDL standard as the initial values come from the base signal /ir_tb/s_state_num(31 downto 4).
 run 10000 ns
@@ -107,5 +106,5 @@ run 10000 ns
 #    Time: 0 fs  Iteration: 0  Protected: /ir_tb/comp_top/ir_fifo_inst/inst/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>
 # ** Note:  DEPTH = 512 WIDTH = 72 C_RD_PRIM_WIDTH = 72 C_RD_PRIM_DEPTH = 512 DEEP = 1 WIDE = 2
 #    Time: 0 fs  Iteration: 0  Protected: /ir_tb/comp_top/ir_fifo_inst/inst/<protected>/<protected>/<protected>/<protected>/<protected>/<protected>
-# End time: 14:15:52 on Dec 13,2021, Elapsed time: 0:00:43
+# End time: 08:21:48 on Feb 01,2022, Elapsed time: 0:01:55
 # Errors: 0, Warnings: 0

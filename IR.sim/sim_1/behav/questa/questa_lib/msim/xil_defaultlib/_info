@@ -9,29 +9,29 @@ z2
 cModel Technology
 Z0 dC:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.sim/sim_1/behav/questa
 Ebuffer_fifo
-Z1 w1639401232
+Z1 w1643698649
 Z2 DPx8 synopsys 10 attributes 0 22 liCm]LV3<lX4Zl>o6^8IV1
 Z3 DPx4 ieee 14 std_logic_misc 0 22 BLzBaQbXS>Q1z>5YO]m[52
 Z4 DPx4 ieee 11 numeric_std 0 22 :ASDNFgHXf_ih3J@9F3Ze1
 Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
 Z6 DPx4 ieee 14 std_logic_1164 0 22 eNV`TJ_GofJTzYa?f<@Oe1
-R0
-Z7 8../../../../../../CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd
-Z8 F../../../../../../CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd
+Z7 dC:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.sim/sim_1/behav/questa
+Z8 8../../../../../../CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd
+Z9 F../../../../../../CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd
 l0
 L37
 VigXXoHZRbJO?Q]JTg:jz82
 !s100 lDcBc>I^8boOLYFg:dIBi3
-Z9 OL;C;10.6c;65
+Z10 OL;C;10.6c;65
 31
-Z10 !s110 1639401300
+Z11 !s110 1643699981
 !i10b 1
-Z11 !s108 1639401300.000000
-Z12 !s90 -64|-93|-work|xil_defaultlib|../../../../../../CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd|../../../../IR.srcs/sources_1/new/ir_statemachine.vhd|../../../../IR.srcs/sources_1/new/packer_ir2.vhd|../../../../../../WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd|../../../../IR.srcs/sources_1/new/top_ir_statemachine.vhd|../../../../IR.srcs/sim_1/new/IR_tb.vhd|
-Z13 !s107 ../../../../IR.srcs/sim_1/new/IR_tb.vhd|../../../../IR.srcs/sources_1/new/top_ir_statemachine.vhd|../../../../../../WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd|../../../../IR.srcs/sources_1/new/packer_ir2.vhd|../../../../IR.srcs/sources_1/new/ir_statemachine.vhd|../../../../../../CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd|
+Z12 !s108 1643699981.000000
+Z13 !s90 -64|-93|-work|xil_defaultlib|../../../../../../CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd|../../../../IR.srcs/sources_1/new/ir_statemachine.vhd|../../../../IR.srcs/sources_1/new/packer_ir2.vhd|../../../../../../WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd|../../../../IR.srcs/sources_1/new/top_ir_statemachine.vhd|../../../../IR.srcs/sim_1/new/IR_tb.vhd|
+Z14 !s107 ../../../../IR.srcs/sim_1/new/IR_tb.vhd|../../../../IR.srcs/sources_1/new/top_ir_statemachine.vhd|../../../../../../WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd|../../../../IR.srcs/sources_1/new/packer_ir2.vhd|../../../../IR.srcs/sources_1/new/ir_statemachine.vhd|../../../../../../CtpReadout/ctp_readout2/ctp_readout2.srcs/sources_1/new/buffer_fifo.vhd|
 !i113 0
-Z14 o-93 -work xil_defaultlib
-Z15 tExplicit 1 CvgOpt 0
+Z15 o-93 -work xil_defaultlib
+Z16 tExplicit 1 CvgOpt 0
 Abehavioral
 R2
 R3
@@ -41,52 +41,52 @@ R6
 DEx4 work 11 buffer_fifo 0 22 igXXoHZRbJO?Q]JTg:jz82
 l54
 L49
-V6=e4OkdcIF:H?7OFd3fhS3
-!s100 WL2M3>Tm;^_87z5ocLO:M2
-R9
-31
+V0O_:PiEG:S<AW]KzdFP[o3
+!s100 ;mMl<3K5?FfKIF@4RQ08D3
 R10
-!i10b 1
+31
 R11
+!i10b 1
 R12
 R13
-!i113 0
 R14
+!i113 0
 R15
+R16
 vglbl
-R10
+R11
 !i10b 1
 !s100 JWZ^meD<P7inSF0<1SiO32
 IAl?5;D^:bf?I5A^M>WzmU1
-Z16 VDg1SIo80bB@j0V0VzS_@n1
-R0
-w1544155481
+Z17 VDg1SIo80bB@j0V0VzS_@n1
+R7
+w1643647111
 8glbl.v
 Fglbl.v
 L0 6
-Z17 OL;L;10.6c;65
+Z18 OL;L;10.6c;65
 r1
 !s85 0
 31
-R11
+R12
 !s107 glbl.v|
 !s90 -work|xil_defaultlib|glbl.v|
 !i113 0
-Z18 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
-Z19 tCvgOpt 0
+Z19 o-work xil_defaultlib -L mtiAvm -L mtiRnm -L mtiOvm -L mtiUvm -L mtiUPF -L infact
+Z20 tCvgOpt 0
 vir_fifo
 !s10a 1636637816
 !s110 1639401000
 !i10b 1
 !s100 WAAU2?@2^Fa4COU]Ze]Tl3
 IVUPAk49ZYV9A0f2ZjzVZ51
-R16
+R17
 R0
 w1636637816
 8../../../../IR.ip_user_files/ip/ir_fifo/sim/ir_fifo.v
 F../../../../IR.ip_user_files/ip/ir_fifo/sim/ir_fifo.v
 L0 56
-R17
+R18
 r1
 !s85 0
 31
@@ -94,176 +94,176 @@ r1
 !s107 ../../../../IR.ip_user_files/ip/ir_fifo/sim/ir_fifo.v|
 !s90 -64|-incr|-work|xil_defaultlib|../../../../IR.ip_user_files/ip/ir_fifo/sim/ir_fifo.v|
 !i113 0
-R18
 R19
+R20
 Eir_statemachine
-Z20 w1635843478
+Z21 w1643699492
 R2
 R3
 R4
 R5
 R6
-R0
-Z21 8../../../../IR.srcs/sources_1/new/ir_statemachine.vhd
-Z22 F../../../../IR.srcs/sources_1/new/ir_statemachine.vhd
+R7
+Z22 8../../../../IR.srcs/sources_1/new/ir_statemachine.vhd
+Z23 F../../../../IR.srcs/sources_1/new/ir_statemachine.vhd
 l0
 L18
-V0UG`R84iEV76ke>4GMmCf2
-!s100 h>o41FAlCMen_ZWB=U46M0
-R9
-31
+VHfi>n=fheD[mJ_e>Th`1K2
+!s100 90LzV<4c4_R6gC5e5`NeU0
 R10
-!i10b 1
+31
 R11
+!i10b 1
 R12
 R13
-!i113 0
 R14
+!i113 0
 R15
+R16
 Artl
 R2
 R3
 R4
 R5
 R6
-DEx4 work 15 ir_statemachine 0 22 0UG`R84iEV76ke>4GMmCf2
-l209
+DEx4 work 15 ir_statemachine 0 22 Hfi>n=fheD[mJ_e>Th`1K2
+l181
 L70
-Ve^[?E=dHM3Wl0gKSYXK9F3
-!s100 QnLCILiUFf6<Y7TWH^N;`2
-R9
-31
+V71V:inRQ>OIU:;UOY[AoO3
+!s100 EYG<]0h@I[DonULEZnnOY2
 R10
-!i10b 1
+31
 R11
+!i10b 1
 R12
 R13
-!i113 0
 R14
+!i113 0
 R15
+R16
 Eir_tb
-Z23 w1635926355
-Z24 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
+Z24 w1643699976
+Z25 DPx4 ieee 16 std_logic_textio 0 22 V5TSK`;aJKC<l]CEg1>mz1
 R2
 R3
 R4
 R5
 R6
-R0
-Z25 8../../../../IR.srcs/sim_1/new/IR_tb.vhd
-Z26 F../../../../IR.srcs/sim_1/new/IR_tb.vhd
+R7
+Z26 8../../../../IR.srcs/sim_1/new/IR_tb.vhd
+Z27 F../../../../IR.srcs/sim_1/new/IR_tb.vhd
 l0
 L42
 V^CM7c8iFJYi3=6ocBTEJg0
 !s100 OMWj[h1h;QSRIm@l0kZ_92
-R9
-31
 R10
-!i10b 1
+31
 R11
+!i10b 1
 R12
 R13
-!i113 0
 R14
+!i113 0
 R15
+R16
 Abehavioral
-R24
+R25
 R2
 R3
 R4
 R5
 R6
 DEx4 work 5 ir_tb 0 22 ^CM7c8iFJYi3=6ocBTEJg0
-l127
+l129
 L46
-VQi2h9m^Rom^ViSRGe6M[l1
-!s100 J<IDLGFC<>_DKS>=ac]Ez0
-R9
-31
+VNb8I`Noe^AZa4db9kImCo1
+!s100 eA=^FQ9ONU4^YWfdk2ggT2
 R10
-!i10b 1
+31
 R11
+!i10b 1
 R12
 R13
-!i113 0
 R14
+!i113 0
 R15
+R16
 TIR_tb_opt
-!s110 1639401302
-VKQk4k4YKcb?=gaY5_<JP52
+!s110 1643699983
+VNo=V2fiBnX4YbEZhUiC]Q3
 04 5 10 work ir_tb behavioral 1
 04 4 4 work glbl fast 0
 o+acc=npr -L fifo_generator_v13_2_3 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip -L xpm -work xil_defaultlib
-R19
+R20
 n@i@r_tb_opt
 OL;O;10.6c;65
 Epacker_ir2
-Z27 w1635861417
+Z28 w1643698568
 R2
 R3
 R4
 R5
 R6
-R0
-Z28 8../../../../IR.srcs/sources_1/new/packer_ir2.vhd
-Z29 F../../../../IR.srcs/sources_1/new/packer_ir2.vhd
+R7
+Z29 8../../../../IR.srcs/sources_1/new/packer_ir2.vhd
+Z30 F../../../../IR.srcs/sources_1/new/packer_ir2.vhd
 l0
 L37
-VeeTBBa9eK5V037V_3^@[30
-!s100 RoQKM@[1^J[0;JE^652^j3
-R9
-31
+VzF^KUFT7_@nkHW<8ea<4m3
+!s100 OF9f:Q3zaGFPHZ[_<e4Ug0
 R10
-!i10b 1
+31
 R11
+!i10b 1
 R12
 R13
-!i113 0
 R14
+!i113 0
 R15
+R16
 Abehavioral
 R2
 R3
 R4
 R5
 R6
-DEx4 work 10 packer_ir2 0 22 eeTBBa9eK5V037V_3^@[30
-l68
-L56
-VbUb=V^@4I0[XTN9EKUI[82
-!s100 a3g<`Pa9gA^2EJCMDmKh20
-R9
-31
+DEx4 work 10 packer_ir2 0 22 zF^KUFT7_@nkHW<8ea<4m3
+l67
+L54
+VIZaJ]5@2I@XQAIaT4n`4P0
+!s100 _>6SEQI@l3:VTFMn]XWBe3
 R10
-!i10b 1
+31
 R11
+!i10b 1
 R12
 R13
-!i113 0
 R14
+!i113 0
 R15
+R16
 Eprsg_tcr
-Z30 w1628152866
+Z31 w1642066559
 R4
 R5
 R6
-R0
-Z31 8../../../../../../WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd
-Z32 F../../../../../../WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd
+R7
+Z32 8../../../../../../WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd
+Z33 F../../../../../../WholeCTPfromGitLab/common_logic/RTL/Trigger_class_record/prsg_tcr.vhd
 l0
 L7
 VS[jDZ>1n7Mi5B;Qj5]okT3
 !s100 I34]D?QL?H]Uic_9lPD^[1
-R9
-31
 R10
-!i10b 1
+31
 R11
+!i10b 1
 R12
 R13
-!i113 0
 R14
+!i113 0
 R15
+R16
 Abehavioral
 R4
 R5
@@ -273,58 +273,58 @@ l21
 L17
 VZc:I?2AW0@linKbPP3=^70
 !s100 9J67mBaNl5FYhU;0RY3i22
-R9
-31
 R10
-!i10b 1
+31
 R11
+!i10b 1
 R12
 R13
-!i113 0
 R14
+!i113 0
 R15
+R16
 Etop_ir_statemachine
-Z33 w1635860900
+Z34 w1643699555
 R4
-Z34 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
-Z35 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
+Z35 DPx4 ieee 15 std_logic_arith 0 22 [G314=:2zXJ`VORJe1J@Z1
+Z36 DPx4 ieee 18 std_logic_unsigned 0 22 ;eZjO2D4ZDz<]0>8AL<ne1
 R5
 R6
-R0
-Z36 8../../../../IR.srcs/sources_1/new/top_ir_statemachine.vhd
-Z37 F../../../../IR.srcs/sources_1/new/top_ir_statemachine.vhd
+R7
+Z37 8../../../../IR.srcs/sources_1/new/top_ir_statemachine.vhd
+Z38 F../../../../IR.srcs/sources_1/new/top_ir_statemachine.vhd
 l0
 L35
-V;`9hjaa[Xc9CZj6J:kF=80
-!s100 gT]0h1L`TNl<@iTLEWPbG2
-R9
-31
+V8NUJo;V6X>^UVL:>YQ3KJ3
+!s100 AeUzXg@`R3Hd@C=LW:Tf=3
 R10
-!i10b 1
+31
 R11
+!i10b 1
 R12
 R13
-!i113 0
 R14
+!i113 0
 R15
+R16
 Abehavioral
 R4
-R34
 R35
+R36
 R5
 R6
-DEx4 work 19 top_ir_statemachine 0 22 ;`9hjaa[Xc9CZj6J:kF=80
+DEx4 work 19 top_ir_statemachine 0 22 8NUJo;V6X>^UVL:>YQ3KJ3
 l249
 L89
-V0oogSJSV0K7JDlo9_KZ080
-!s100 iE5BZe<GgL4=imjQJ0mej2
-R9
-31
+VGz34koJV]iHQ9P<?ROLaf1
+!s100 n@2KDE@4?P7?Md<T?:HV30
 R10
-!i10b 1
+31
 R11
+!i10b 1
 R12
 R13
-!i113 0
 R14
+!i113 0
 R15
+R16

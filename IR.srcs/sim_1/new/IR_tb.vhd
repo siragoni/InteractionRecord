@@ -49,7 +49,7 @@ architecture Behavioral of IR_tb is
 	signal reset_s	    	: std_logic := '0';
 	signal clk_en_s		    : std_logic;
 	signal start_command    : std_logic := '0';
-	signal data_sel_s	    : std_logic := '0';
+	signal data_sel_s	    : std_logic_vector( 31 downto 0) := (others => '0');
 	signal data_s		    : std_logic_vector( 67 downto 0) := (others => '0');
 --	signal data_s		    : std_logic_vector( 67 downto 0);
 	signal bc_number_s     	: std_logic_vector( 11 downto 0) := (others => '0');
@@ -67,7 +67,9 @@ architecture Behavioral of IR_tb is
     signal sn_i             : std_logic_vector( 7 downto 0) := "00010001";
 --    signal threshold        : std_logic_vector(31 downto 0) := (30 => '1', others => '1');
     signal threshold        : std_logic_vector(31 downto 0) := (30 => '0', others => '0');
+    signal tickpipe : std_logic_vector(6 downto 1);
 
+    signal dv_o : std_logic := '0';
 
 	
 component top_ir_statemachine is
@@ -91,14 +93,14 @@ component top_ir_statemachine is
     gbt_rx_data               : in  std_logic_vector (79 downto 0);
     gbt_rx_data_flag          : in  std_logic;
    	--------------------------------------------------------------------------------
-    -- TCR resets
+    -- ir resets
     --------------------------------------------------------------------------------
-    rst_tcr_buffer_i          : in std_logic;
-    rst_tcr_state_machine_i   : in std_logic;
+    rst_ir_buffer_i          : in std_logic;
+    rst_ir_state_machine_i   : in std_logic;
     --------------------------------------------------------------------------------
     -- Data to GBT		
     --------------------------------------------------------------------------------
-    d_i_sel                   : in  std_logic;
+    d_i_sel                   : in  std_logic_vector(31 downto 0);
 --    start_command             : in  std_logic;
     global_orbit              : in  std_logic_vector (31 downto 0);
     s_TTC_RXD	              : in  std_logic_vector(119 downto 0);
@@ -107,14 +109,14 @@ component top_ir_statemachine is
     d_o                       : out std_logic_vector (79 downto 0); -- GBT data
     dv_o                      : out std_logic;                      -- GBT data flag
     --------------------------------------------------------------------------------
-    -- TCR start/stop
+    -- ir start/stop
     --------------------------------------------------------------------------------
-    start_tcr_data_taking_o   : out std_logic;
-    stop_tcr_data_taking_o    : out std_logic; 
+    start_ir_data_taking_o   : out std_logic;
+    stop_ir_data_taking_o    : out std_logic; 
     --------------------------------------------------------------------------------
-    -- TCR state machine coders (same interface as IR)
+    -- ir state machine coders (same interface as IR)
     --------------------------------------------------------------------------------
-    tcr_state_machine_codes_o : out std_logic_vector (31 downto 0);
+    ir_state_machine_codes_o : out std_logic_vector (31 downto 0);
     --------------------------------------------------------------------------------
     -- Miscellaneous
     --------------------------------------------------------------------------------
@@ -127,7 +129,7 @@ end component;
 begin
 
 	CLK_0 <= not(CLK_0) after (1 us/240);
-	data_sel_s <= '0';
+	data_sel_s(2) <= '1';
 
 	process(CLK_0)                          -- process for clk_en
         variable count  : integer := 0;
@@ -135,13 +137,29 @@ begin
         -- Clk Enable
                 if rising_edge(CLK_0) then
                         clk_en_s <='0';
-                        if(count= 6) then
+                        if(count = 6) then
                                 clk_en_s <='1';
                                 count:=0;
                         end if;
                         count:=count+1;
                 end if;
         end process;
+
+
+
+--delay : process(CLK_0) is begin
+--    if RISING_EDGE(CLK_0) then
+--        tickpipe <= tickpipe(4 downto 0) & tick_i;
+--        tick_delay   <= or_reduce(tickpipe and mask_i);
+--        if (tick_delay = '1') then
+--            signal_o <= signal_i;
+--        end if;
+--    end if;
+--end process delay;
+
+--tickpipe <= tickpipe(5 downto 1) & clk_en_s when rising_edge(CLK_0);
+--clk_en_s <= tickpipe(6);
+
 
 --	process					-- process for reset
 --  	begin
@@ -204,10 +222,10 @@ begin
             gbt_rx_data               => gbt_rx_s,
             gbt_rx_data_flag          => gbt_flag_s,
             --------------------------------------------------------------------------------
-            -- TCR resets
+            -- ir resets
             --------------------------------------------------------------------------------
-            rst_tcr_buffer_i          => reset_s, 
-            rst_tcr_state_machine_i   => reset_s, 
+            rst_ir_buffer_i          => reset_s, 
+            rst_ir_state_machine_i   => reset_s, 
             --------------------------------------------------------------------------------
             -- Data to GBT		
             --------------------------------------------------------------------------------
@@ -218,17 +236,17 @@ begin
             d_i                       => data_s,   
 --            bc_number_i               => bc_number_s, -- BC ID
             d_o                       => gbt_connection, -- GBT data
-            dv_o                      => open,  
+            dv_o                      => dv_o,  
             --------------------------------------------------------------------------------
-            -- TCR start/stop
+            -- ir start/stop
             --------------------------------------------------------------------------------
-            start_tcr_data_taking_o   => open,
-            stop_tcr_data_taking_o    => open,
+            start_ir_data_taking_o   => open,
+            stop_ir_data_taking_o    => open,
             --------------------------------------------------------------------------------
-            -- TCR state machine coders (same interface as IR)
+            -- ir state machine coders (same interface as IR)
             --------------------------------------------------------------------------------
-            tcr_state_machine_codes_o => s_state_num,
---            tcr_state_machine_codes_o => open
+            ir_state_machine_codes_o => s_state_num,
+--            ir_state_machine_codes_o => open
             sn                        => sn_i,
             threshold                 => threshold       
 

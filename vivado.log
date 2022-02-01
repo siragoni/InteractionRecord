@@ -2,19 +2,20 @@
 # Vivado v2018.3 (64-bit)
 # SW Build 2405991 on Thu Dec  6 23:38:27 MST 2018
 # IP Build 2404404 on Fri Dec  7 01:43:56 MST 2018
-# Start of session at: Wed Dec 15 08:54:39 2021
-# Process ID: 7636
-# Current directory: C:/Users/Simone Ragoni/alice/InteractionRecord/IR
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent2292 C:\Users\Simone Ragoni\alice\InteractionRecord\IR\IR.xpr
-# Log file: C:/Users/Simone Ragoni/alice/InteractionRecord/IR/vivado.log
-# Journal file: C:/Users/Simone Ragoni/alice/InteractionRecord/IR\vivado.jou
+# Start of session at: Tue Feb  1 07:53:58 2022
+# Process ID: 13464
+# Current directory: C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent11492 C:\Users\Simone Ragoni\alice\InteractionRecord\InteractionRecord\IR.xpr
+# Log file: C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/vivado.log
+# Journal file: C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord\vivado.jou
 #-----------------------------------------------------------
 start_gui
-open_project {C:/Users/Simone Ragoni/alice/InteractionRecord/IR/IR.xpr}
+open_project {C:/Users/Simone Ragoni/alice/InteractionRecord/InteractionRecord/IR.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Simone Ragoni/alice/InteractionRecord/IR' since last save.
 Scanning sources...
 Finished scanning sources
 INFO: [IP_Flow 19-234] Refreshing IP repositories
 INFO: [IP_Flow 19-1704] No user IP repositories specified
 INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2018.3/data/ip'.
-open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 745.309 ; gain = 137.457
+open_project: Time (s): cpu = 00:00:12 ; elapsed = 00:00:07 . Memory (MB): peak = 749.863 ; gain = 143.516
 update_compile_order -fileset sources_1

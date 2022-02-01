@@ -1,7 +1,7 @@
 Copyright 1986-2018 Xilinx, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2018.3 (win64) Build 2405991 Thu Dec  6 23:38:27 MST 2018
-| Date         : Mon Dec 13 14:09:47 2021
+| Date         : Tue Feb  1 08:13:18 2022
 | Host         : DESKTOP-T9I20SI running 64-bit major release  (build 9200)
 | Command      : report_utilization -file top_ir_statemachine_utilization_synth.rpt -pb top_ir_statemachine_utilization_synth.pb
 | Design       : top_ir_statemachine
@@ -31,16 +31,16 @@ Table of Contents
 +----------------------------+------+-------+-----------+-------+
 |          Site Type         | Used | Fixed | Available | Util% |
 +----------------------------+------+-------+-----------+-------+
-| CLB LUTs*                  |  577 |     0 |    331680 |  0.17 |
-|   LUT as Logic             |  574 |     0 |    331680 |  0.17 |
+| CLB LUTs*                  |  586 |     0 |    331680 |  0.18 |
+|   LUT as Logic             |  583 |     0 |    331680 |  0.18 |
 |   LUT as Memory            |    3 |     0 |    146880 | <0.01 |
 |     LUT as Distributed RAM |    0 |     0 |           |       |
 |     LUT as Shift Register  |    3 |     0 |           |       |
-| CLB Registers              |  770 |     0 |    663360 |  0.12 |
-|   Register as Flip Flop    |  768 |     0 |    663360 |  0.12 |
+| CLB Registers              |  854 |     0 |    663360 |  0.13 |
+|   Register as Flip Flop    |  852 |     0 |    663360 |  0.13 |
 |   Register as Latch        |    2 |     0 |    663360 | <0.01 |
 | CARRY8                     |   20 |     0 |     41460 |  0.05 |
-| F7 Muxes                   |    0 |     0 |    165840 |  0.00 |
+| F7 Muxes                   |    1 |     0 |    165840 | <0.01 |
 | F8 Muxes                   |    0 |     0 |     82920 |  0.00 |
 | F9 Muxes                   |    0 |     0 |     41460 |  0.00 |
 +----------------------------+------+-------+-----------+-------+
@@ -62,7 +62,7 @@ Table of Contents
 | 0     |          Yes |           - |          Set |
 | 177   |          Yes |           - |        Reset |
 | 2     |          Yes |         Set |            - |
-| 591   |          Yes |       Reset |            - |
+| 675   |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -95,7 +95,7 @@ Table of Contents
 +------------+------+-------+-----------+-------+
 |  Site Type | Used | Fixed | Available | Util% |
 +------------+------+-------+-----------+-------+
-| Bonded IOB |  336 |     0 |       520 | 64.62 |
+| Bonded IOB |  337 |     0 |       520 | 64.81 |
 +------------+------+-------+-----------+-------+
 
 
@@ -154,22 +154,23 @@ Table of Contents
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDRE     |  591 |            Register |
-| LUT6     |  253 |                 CLB |
-| INBUF    |  221 |                 I/O |
-| IBUFCTRL |  221 |              Others |
+| FDRE     |  675 |            Register |
+| LUT6     |  266 |                 CLB |
+| INBUF    |  222 |                 I/O |
+| IBUFCTRL |  222 |              Others |
 | FDCE     |  175 |            Register |
-| LUT2     |  140 |                 CLB |
+| LUT2     |  135 |                 CLB |
 | LUT5     |  111 |                 CLB |
-| LUT3     |  106 |                 CLB |
-| LUT4     |  105 |                 CLB |
+| LUT4     |  102 |                 CLB |
 | OBUF     |   87 |                 I/O |
+| LUT3     |   69 |                 CLB |
 | OBUFT    |   28 |                 I/O |
 | CARRY8   |   20 |                 CLB |
 | LUT1     |    4 |                 CLB |
 | SRL16E   |    3 |                 CLB |
 | LDCE     |    2 |            Register |
 | FDSE     |    2 |            Register |
+| MUXF7    |    1 |                 CLB |
 | BUFGCE   |    1 |               Clock |
 +----------+------+---------------------+
 
